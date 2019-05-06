@@ -61,7 +61,6 @@ class MessagesAdapter(var messageData: MutableList<Message>) : RecyclerView.Adap
         // create a new view
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_message, parent, false)
-
         return ViewHolder(view)
     }
 
